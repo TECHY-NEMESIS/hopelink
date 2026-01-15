@@ -52,7 +52,7 @@ HOW TO ACCESS THE FILE
   
     Clone the repository
 
-git clone https://github.com/yourusername/HopeLink.git
+git clone https://github.com/TECHY-NEMESIS/HopeLink.git
 cd HopeLink
 
 Install dependencies 
@@ -68,6 +68,7 @@ DB_CONFIG = {
     "password": "",
     "database": "hopelink"
 }
+
 
 
 -----RUN THE APPLICATION-----
