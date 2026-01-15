@@ -1,0 +1,19 @@
+SOS POSTS
+
+sos_id INT PRIMARY KEY AUTO_INCREMENT
+user_id INT
+message TEXT
+emotion_level VARCHAR(20)
+is_claimed BOOLEAN
+claimed_by INT
+timestamp TIMESTAMP
+
+
+MESSAGES
+
+message_id INT PRIMARY KEY AUTO_INCREMENT
+chat_id VARCHAR(100)
+sender_role VARCHAR(20)
+sender_alias VARCHAR(50)
+message TEXT
+timestamp TIMESTAMP
